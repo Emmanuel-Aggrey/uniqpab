@@ -61,5 +61,4 @@ class Gallary(models.Model):
     image6 = models.ImageField(upload_to='gallary_img/%Y/%m/%d', blank=True,null=True)
 
 
-    def __str__(self):
-        return f'gallary' 
+   
